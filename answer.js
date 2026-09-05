@@ -5,7 +5,8 @@ function describeValue(value) {
   const truthiness = value ? "truthy" : "falsy";
 
   return `${type} | ${truthiness}`;
-}console.log(describeValue(5));
+}
+console.log(describeValue(5));
 
 
 //--------------------- Question - 2 ---------------------//
